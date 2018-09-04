@@ -43,4 +43,6 @@ fs.readFile('listings.json', 'utf8', function(err, data) {
             
             listingData = data;
             server.listen(8080);
+            console.log("Server is listening")
+            
             });
